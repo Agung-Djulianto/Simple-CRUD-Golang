@@ -10,10 +10,10 @@ import (
 
 var (
 	host         = "localhost"
-	user         = "postgres"
-	password     = "admin"
+	user         = ""
+	password     = ""
 	databasePort = "5432"
-	databaseName = "mahasiswa"
+	databaseName = ""
 )
 
 func ReadDB() *gorm.DB {
